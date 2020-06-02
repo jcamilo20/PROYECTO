@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-06-2020 a las 05:00:31
+-- Tiempo de generación: 02-06-2020 a las 07:21:59
 -- Versión del servidor: 10.4.6-MariaDB
 -- Versión de PHP: 7.3.8
 
@@ -44,7 +44,7 @@ CREATE TABLE `TBL_administradores` (
 
 INSERT INTO `TBL_administradores` (`PK_admin`, `nombre`, `apellido`, `email`, `password`, `Created`, `Updated`) VALUES
 (1, 'julian', 'rodriguez', 'julianrv920@gmail.com', '$2y$10$xgC6VTRtqhHDiR4.8xUzneNh2EBZNWq7wdY/Im3ubuJ5lt2CcLVLq', '2020-05-11 00:00:00', '2020-06-01 11:24:23'),
-(2, 'daniel', 'morales', 'daniel.morales@academia.unimeta.edu.co', '$2y$10$YG6gpw9zYSF.9Zg300w3oegbUuujlmur1wdRJ3bM4uTysXO8xO4TC', '2020-06-01 20:58:12', '2020-06-01 20:58:12'),
+(2, 'daniel', 'morales', 'daniel.morales@academia.unimeta.edu.co', '$2y$10$YG6gpw9zYSF.9Zg300w3oegbUuujlmur1wdRJ3bM4uTysXO8xO4TC', '2020-06-01 20:58:12', '2020-06-01 04:09:11'),
 (3, 'jesus', 'sanchez', 'jesus@gmail.com', '$2y$10$dgFE5aKchbi4ayHsPPKt.OU6xI0EAhuA1oNA054rXqvsGXxw5wF3y', '2020-06-01 21:27:41', '2020-06-01 21:27:41'),
 (4, 'guillermo', 'sanchez', 'guillermo@gmail.com', '$2y$10$npHnPGHaIo1u6zXWgTKrfuVkKiWB1csqI3l6sB/KZV/nABjrj7aaO', '2020-06-01 21:28:07', '2020-06-01 21:28:07'),
 (5, 'laura', 'perez', 'laura@gmail.com', '$2y$10$2Ccq9ha.Nhbyo/HICvSdQOpR.8xO4mn6lhRcbwZ9zm7HKaR3nVr1G', '2020-06-01 21:28:30', '2020-06-01 21:28:30');
@@ -247,7 +247,7 @@ ALTER TABLE `TBL_ventas`
 -- AUTO_INCREMENT de la tabla `TBL_administradores`
 --
 ALTER TABLE `TBL_administradores`
-  MODIFY `PK_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `PK_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT de la tabla `TBL_detalle_venta`

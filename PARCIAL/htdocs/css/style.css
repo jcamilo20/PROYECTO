@@ -1,0 +1,67 @@
+body {
+  color: #151515;
+  font-family: 'Poppins', sans-serif;
+ overflow-x: hidden;
+      background: #363736;
+
+}
+.img-fluid{
+  width: 100%; 
+}
+#glitch {
+  background: #E64343;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  line-height: 1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+ visibility: hidden;
+}
+
+
+#pago{
+  background: #E64343;
+  padding: 55px;
+  visibility: hidden;
+}
+#pago h2{
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  text-align: center;
+  line-height: 1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin: 0px;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+#servicios{
+		visibility: hidden;
+      background: #fff;
+
+}
+
+#servicios p{
+
+ font-size: 15pt;
+		
+
+}
+
+div.row{
+   margin-right: 0px;
+   margin-left: 0px;
+
+}
+
+div.container-fluid{
+   padding-right: 0px;
+   padding-left: 0px;
+}	

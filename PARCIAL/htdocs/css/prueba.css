@@ -1,0 +1,30 @@
+body{
+  font-family: sans-serif;
+
+}
+
+img-fluid{
+	height: -2000px:;
+}
+a:link {
+text-decoration: none;
+color: #204954;
+}
+a:visited {
+text-decoration: none;
+color: #0000;
+}
+nav{
+  font-size: 20px;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

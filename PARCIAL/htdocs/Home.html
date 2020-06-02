@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" type="text/css" href="css/prueba.css">
+      <link rel="stylesheet" type="text/css" href="css/footer.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/animations.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:400,700'>
+      <meta charset="utf-8">
+      <title>Planea Tu Party</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #56B2D4;">
+         <a class="navbar-brand" href="#">
+         <img src="imagenes/logo4.png">
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#" style="color:#FFFFFF";>Inicio <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#FFFFFF";>
+                  Servicios
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="#">Servicio #1</a>
+                     <a class="dropdown-item" href="#">Servicio #2</a>
+                     <a class="dropdown-item" href="#">Servicio #3</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#" style="color:#FFFFFF";>Soporte</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#" style="color:#FFFFFF";>Sobre Nosotros</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <img src="imagenes/fiesta4.jpg"  class="img-fluid" alt="Responsive image">
+      <div id="glitch">Bienvenido a la nueva forma de organizar eventos en internet</div>
+      <div class="container-fluid">
+         <div id="servicios">
+            <div class="row">
+               <div class="col-md-4" data-toggle="modal" data-target="#Panaderias">
+                  <div class="thumbnail">
+                     <a href="#Panaderias">
+                        <h1>Pasteleria</h1>
+                        <img src="imagenes/pastel.png" alt="Lights" style="width:100%">
+                        <div class="caption">
+                           <p>Explora entre cientos de sabores, texturas y colores, elije tú pastel favorito entre la gran cantidad de panaderias asociadas.</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-4" data-toggle="modal" data-target="#Bebidas">
+                  <div class="thumbnail">
+                     <a href="#Bebidas">
+                        <h1>Bebidas</h1>
+                        <img src="imagenes/bebidas.png" alt="Nature" style="width:100%">
+                        <div class="caption">
+                           <p>Aquí puedes encontrar cientos de bebidas con y sin Alchohol, nacionales y extranjeras.</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-4" data-toggle="modal" data-target="#Decoracion">
+                  <div class="thumbnail">
+                     <a href="#Decoracion">
+                        <h1>Decoración</h1>
+                        <img src="imagenes/decoracion.png" alt="Fjords" style="width:100%">
+                        <div class="caption">
+                           <p>En esta categoria puedes encontrar productos como bombas, sombreritos, serpentinas y demás que te ayudarán a decorar una increíble fiesta.</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-4" data-toggle="modal" data-target="#sonido_video">
+                  <div class="thumbnail">
+                     <a href="#sonido_video">
+                        <h1>Sonido y Video</h1>
+                        <img src="imagenes/sonido.png" alt="Lights" style="width:100%">
+                        <div class="caption">
+                           <p>Si necesitas equipos de audio o video, aqui te los alquilamos para que seas el alma de la fiesta.</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-md-4" data-toggle="modal" data-target="#Muebles">
+                  <div class="thumbnail">
+                     <a href="#Muebles">
+                        <h1>Muebles</h1>
+                        <img src="imagenes/muebles.png" alt="Lights" style="width:100%">
+                        <div class="caption">
+                           <p>¿Donde se sentarán tus invitados? Encuentra aquí sillas y mesas para que las alquiles.</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Modal Panaderias-->
+      <div class="modal fade" id="Panaderias" tabindex="-1" role="dialog" aria-labelledby="PanaderiasLongTitle" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="PanaderiasLongTitle" style="color:#56B2D4">Selecciona tu Tienda favorita</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <a href="panaderias/index.php"><img src="imagenes/veracruz_logo.jpg" height="150px" width="150px"></a>
+                  <img src="imagenes/panaderia-don-luis.jpg" height="150px" width="150px">
+                  <img src="imagenes/panaderia-vina-del-mar.png" height="150px" width="150px">
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Fin Modal Panaderias-->
+      <!-- Modal Bebidas-->
+      <div class="modal fade" id="Bebidas" tabindex="-1" role="dialog" aria-labelledby="BebidasLongTitle" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="BebidasLongTitle" style="color:#56B2D4">Selecciona tu Tienda favorita</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <center><a href="licoreras/index.php"><img src="imagenes/licorera_jardin.jpg" height="150px" width="200px"></a></center>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Fin Modal Bebidas-->
+      <!-- Modal Decoracion-->
+      <div class="modal fade" id="Decoracion" tabindex="-1" role="dialog" aria-labelledby="DecoracionLongTitle" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="DecoracionLongTitle" style="color:#56B2D4">Selecciona tu Tienda favorita</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <h5>PROXIMAMENTE</h5>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Fin Modal Decoracion-->
+      <!-- Modal Sonido y video-->
+      <div class="modal fade" id="sonido_video" tabindex="-1" role="dialog" aria-labelledby="DecoracionLongTitle" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="DecoracionLongTitle" style="color:#56B2D4">Selecciona tu Tienda favorita</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <h5>PROXIMAMENTE</h5>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Fin Modal Sonido y video-->
+      <!-- Modal Muebles-->
+      <div class="modal fade" id="Muebles" tabindex="-1" role="dialog" aria-labelledby="DecoracionLongTitle" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="DecoracionLongTitle" style="color:#56B2D4">Selecciona tu Tienda favorita</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <h5>PROXIMAMENTE</h5>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Fin Modal Muebles-->
+      <div id="pago">
+         <center>
+            <h2>M&#233;todos de Pago</h2>
+         </center>
+         <div class="row">
+            <div class="col-md-12"><img src="imagenes/pagospagina.png" style="width:100%"></div>
+         </div>
+      </div>
+      <!-- Footer -->
+      <section id="footer">
+         <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+               <div class="col-xs-12 col-sm-4 col-md-4">
+                  <h5>Ubicaci&#243;n</h5>
+                  <ul class="list-unstyled quick-links">
+                     <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Carrera 36 #21-24 Sur 
+                        <br>
+                        Villavicencio, Meta - Colombia
+                        <br>
+                        Celular: 3146792841
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-xs-12 col-sm-4 col-md-4">
+                  <h5>Preguntas Frecuentes</h5>
+                  <ul class="list-unstyled quick-links">
+                     <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>&#191;
+                        C&#243;mo empezar a vender con nosotros?</a>
+                     </li>
+                     <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Cupones</a></li>
+                     <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Soporte</a></li>
+                     <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Oportunidades de Empleo</a></li>
+                     <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>T&#233;rminos Legales</a></li>
+                  </ul>
+               </div>
+               <div class="col-xs-12 col-sm-4 col-md-4">
+                  <h5>Iniciar Sesi&#243;n</h5>
+                  <ul class="list-unstyled quick-links">
+                     <li><a href="tiendas/login.php"><i class="fa fa-angle-double-right"></i>Acceso Tiendas</a></li>
+                     <li><a href="administradores/login.php"><i class="fa fa-angle-double-right"></i>Acceso Administradores</a></li>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                  <ul class="list-unstyled list-inline social text-center">
+                     <li class="list-inline-item"><a href="https://www.facebook.com/Planea-tu-party-196613044593903/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                     <li class="list-inline-item"><a href="https://twitter.com/Planeatuparty" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                     <li class="list-inline-item"><a href="https://www.instagram.com/planeatuparty/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                     <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                     <li class="list-inline-item"><a a href="mailto:planeatuparty@hotmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+               </div>
+               </hr>
+            </div>
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                  <p class="h6">&copy Todos los Derechos Reservados.</p>
+               </div>
+               </hr>
+            </div>
+         </div>
+      </section>
+      <!-- ./Footer -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="administradores/js/animaciones.js"></script>
+   </body>
+</html>
